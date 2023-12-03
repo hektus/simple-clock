@@ -7,7 +7,6 @@ const clock = () => {
   const seconds = time.getSeconds();
   const minutes = time.getMinutes();
   const hours = time.getHours();
-  console.log(hours, minutes, seconds);
   secondHand.style.transform = `rotate(${seconds * 6}deg) translateX(-50%)`;
   minuteHand.style.transform = `rotate(${minutes * 6}deg) translateX(-50%)`;
   hourHand.style.transform = `rotate(${hours * 30}deg) translateX(-50%)`;

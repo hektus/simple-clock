@@ -26,7 +26,9 @@ body {
   top: 10%;
   position: absolute;
   left: 50%;
+  transition: all 0.05s;
   transform-origin: bottom left;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
 .digital-time {
