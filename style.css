@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(68, 68, 231);
+}
+
+.clock {
+  width: 400px;
+  height: 400px;
+  border: 10px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hand {
+  background-color: black;
+  width: 5px;
+  height: 40%;
+  top: 10%;
+  position: absolute;
+  left: 50%;
+  transform-origin: bottom left;
+}
+
+.digital-time {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.hour {
+  height: 25%;
+  top: 25%;
+}
+
+.second {
+  height: 45%;
+  top: 5%;
+  width: 3px;
+}
